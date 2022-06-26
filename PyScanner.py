@@ -2,7 +2,6 @@
 
 import scapy.all as scapy
 import argparse
-import subprocess
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-ip", dest ="ip", help="Target IP")
